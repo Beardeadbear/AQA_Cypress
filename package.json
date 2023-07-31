@@ -1,0 +1,26 @@
+{
+  "name": "aqa_cypress",
+  "version": "1.0.0",
+  "description": "Education aqa cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "aqa",
+    "testing"
+  ],
+  "author": "Kolos",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.15.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "run": "^1.4.0",
+    "test": "^3.2.1"
+  }
+}
